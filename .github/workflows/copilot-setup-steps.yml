@@ -1,5 +1,8 @@
 ﻿name: Copilot Setup Steps
-on: [workflow_dispatch, push]
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   copilot-setup-steps:
