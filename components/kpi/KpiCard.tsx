@@ -1,3 +1,7 @@
+
+'use client';
+
+
 import { Card, CardContent, Typography, Box } from '@mui/material';
 import { ArrowUpward, ArrowDownward } from '@mui/icons-material';
 import type { ReactElement } from 'react';
